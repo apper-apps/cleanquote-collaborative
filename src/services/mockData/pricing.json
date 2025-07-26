@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "homeSize": "Studio",
+    "basePrice": 75,
+    "icon": "Home",
+    "description": "Studio apartment or small space"
+  },
+  {
+    "Id": 2,
+    "homeSize": "1 Bedroom",
+    "basePrice": 95,
+    "icon": "Building",
+    "description": "One bedroom apartment or condo"
+  },
+  {
+    "Id": 3,
+    "homeSize": "2 Bedroom",
+    "basePrice": 125,
+    "icon": "Building2",
+    "description": "Two bedroom home or apartment"
+  },
+  {
+    "Id": 4,
+    "homeSize": "3+ Bedroom",
+    "basePrice": 165,
+    "icon": "Castle",
+    "description": "Large home with three or more bedrooms"
+  }
+]

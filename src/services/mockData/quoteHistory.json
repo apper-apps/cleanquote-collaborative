@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "date": "2024-01-15T10:30:00Z",
+    "homeSize": "2 Bedroom",
+    "frequency": "Bi-weekly",
+    "total": 112.50
+  },
+  {
+    "Id": 2,
+    "date": "2024-01-14T15:45:00Z",
+    "homeSize": "Studio",
+    "frequency": "Weekly",
+    "total": 63.75
+  },
+  {
+    "Id": 3,
+    "date": "2024-01-13T09:15:00Z",
+    "homeSize": "3+ Bedroom",
+    "frequency": "Monthly",
+    "total": 156.75
+  },
+  {
+    "Id": 4,
+    "date": "2024-01-12T14:20:00Z",
+    "homeSize": "1 Bedroom",
+    "frequency": "One-time",
+    "total": 95.00
+  },
+  {
+    "Id": 5,
+    "date": "2024-01-11T11:10:00Z",
+    "homeSize": "2 Bedroom",
+    "frequency": "Weekly",
+    "total": 106.25
+  },
+  {
+    "Id": 6,
+    "date": "2024-01-10T16:35:00Z",
+    "homeSize": "Studio",
+    "frequency": "Bi-weekly",
+    "total": 67.50
+  }
+]

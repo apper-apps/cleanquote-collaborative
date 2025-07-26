@@ -241,29 +241,29 @@ const Dashboard = () => {
                 </div>
               </button>
 
-              <button
-                onClick={() => window.open("tel:+15551234567")}
+<button
+                onClick={() => window.location.href = "/rates"}
                 className="flex items-center space-x-3 p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-accent/20 transition-all duration-200 group"
               >
                 <div className="w-10 h-10 bg-gradient-to-br from-accent to-green-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                  <ApperIcon name="Phone" className="w-5 h-5 text-white" />
+                  <ApperIcon name="DollarSign" className="w-5 h-5 text-white" />
                 </div>
                 <div className="text-left">
-                  <p className="font-medium text-gray-800">Call Us</p>
-                  <p className="text-xs text-gray-600">Book service</p>
+                  <p className="font-medium text-gray-800">Configure Rates</p>
+                  <p className="text-xs text-gray-600">Set your pricing</p>
                 </div>
               </button>
 
               <button
-                onClick={() => window.open("mailto:hello@cleanquotepro.com")}
+                onClick={() => window.open("tel:+15551234567")}
                 className="flex items-center space-x-3 p-4 bg-white rounded-lg border border-gray-200 hover:shadow-md hover:border-secondary/20 transition-all duration-200 group"
               >
                 <div className="w-10 h-10 bg-gradient-to-br from-secondary to-purple-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-                  <ApperIcon name="Mail" className="w-5 h-5 text-white" />
+                  <ApperIcon name="Phone" className="w-5 h-5 text-white" />
                 </div>
                 <div className="text-left">
-                  <p className="font-medium text-gray-800">Email Us</p>
-                  <p className="text-xs text-gray-600">Get in touch</p>
+                  <p className="font-medium text-gray-800">Call Support</p>
+                  <p className="text-xs text-gray-600">Get help</p>
                 </div>
               </button>
             </div>

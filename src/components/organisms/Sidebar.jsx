@@ -6,9 +6,10 @@ import ApperIcon from "@/components/ApperIcon"
 const Sidebar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
-  const navigationItems = [
+const navigationItems = [
     { to: "/calculator", icon: "Calculator", label: "Calculator" },
-    { to: "/dashboard", icon: "BarChart3", label: "Dashboard" }
+    { to: "/dashboard", icon: "BarChart3", label: "Dashboard" },
+    { to: "/rates", icon: "DollarSign", label: "Rate Settings" }
   ]
 
   // Desktop Sidebar
